@@ -1,4 +1,4 @@
-package course
+package course.beginning
 
 // let's learn how to declare arrays in Kotlin
 @OptIn(ExperimentalUnsignedTypes::class)

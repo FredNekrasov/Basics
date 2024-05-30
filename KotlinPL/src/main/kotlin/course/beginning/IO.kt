@@ -1,4 +1,4 @@
-package course
+package course.beginning
 
 // let's learn how to read user input and print the result in Kotlin
 fun main() {

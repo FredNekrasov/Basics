@@ -1,4 +1,4 @@
-package course
+package course.beginning
 
 // let's learn how to use expressions in Kotlin
 fun main() {
