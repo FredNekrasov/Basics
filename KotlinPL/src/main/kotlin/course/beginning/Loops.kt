@@ -15,7 +15,7 @@ fun main() {
     val charUntilRange = 'a' until 'g'// This is a character range from 'a' to 'g' exclusive ('g' is not included)
     // This is a while loop that prints each number in the 'numbers' array
     var index = 0
-    while (index < numbers.size) {
+    while (index < numbers.size) {// https://kotlinlang.org/docs/control-flow.html#while-loops
         print(numbers[index])
         index++
     }
@@ -28,7 +28,9 @@ fun main() {
     } while (i < 5)
     println()
     // This is a for loop that iterates over each character in the 'charUntilRange' range
-    for (j in numbers.indices) {
+    for (j in numbers.indices) {//https://kotlinlang.org/docs/control-flow.html#for-loops
+        if (j == 8) break
+        if (j % 2 == 0) continue// https://kotlinlang.org/docs/returns.html for more info
         print(numbers[j])
     }
     println()

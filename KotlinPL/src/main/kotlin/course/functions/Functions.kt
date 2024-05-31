@@ -3,7 +3,7 @@ package course.functions
 /**
  *  Unit-returning functions.
  *  If a function does not return a useful value, its return type is Unit.
- *  Unit is a type with only one value - Unit.
+ *  Unit is a special type that represents the absence of a value.
  *  The Unit return type declaration is also optional.
  */
 fun unitReturningFunction(a: Int, b: Int) = println("sum of $a and $b is ${a + b}")
@@ -42,7 +42,8 @@ tailrec fun factorial(n: Int, accumulator: Int = 1): Int {
     if (n == 1) return accumulator
     return factorial(n - 1, n * accumulator)
 }
-// we learned how to write unit-returning functions, functions with default values, single-expression functions, vararg functions, infix functions, and tail recursive functions
+// we learned how to write unit-returning functions, functions with default values, single-expression functions, vararg functions, infix functions, and tail recursive functions.
+// https://kotlinlang.org/docs/functions.html
 fun main() {
     unitReturningFunction(10, 20)
     functionWithDefaultValue(b = 20)

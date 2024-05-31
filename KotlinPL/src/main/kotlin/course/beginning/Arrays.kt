@@ -2,7 +2,7 @@ package course.beginning
 
 // let's learn how to declare arrays in Kotlin
 @OptIn(ExperimentalUnsignedTypes::class)
-fun main() {
+fun main() {//https://kotlinlang.org/docs/arrays.html
     // Creating a basic array of strings
     val array = arrayOf("Hello", "World", "\n", "Kotlin", "Is", "Awesome", "!")
     val emptyArray = emptyArray<String>()// Creating an empty array of strings with a size of 0

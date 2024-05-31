@@ -2,7 +2,7 @@ package course.functions
 
 // let's learn how to write lambdas, anonymous functions, and higher-order functions in Kotlin
 fun main() {
-    //https://kotlinlang.org/docs/lambdas.html#lambda-expressions-and-anonymous-functions
+    //https://kotlinlang.org/docs/lambdas.html
     /**
      *  Lambda expressions and anonymous functions
      *  A lambda expression is an anonymous function that can be assigned to a variable or passed as an argument to another function.
