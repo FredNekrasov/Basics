@@ -29,7 +29,7 @@ fun main() {
  *  Higher-order function
  *  A higher-order function is a function that takes another function as an argument or returns a function.
  */
-fun higherOrderFunction(
+private fun higherOrderFunction(
     a: Int,
     b: Int,
     operation: (Int, Int) -> Int//Function types. These types have a special notation that corresponds to the signatures of the functions - their parameters and return values
