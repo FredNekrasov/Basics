@@ -1,20 +1,22 @@
 // start the course in the following order.
 // 1 beginning:
-// 1.1 DataTypes.kt
+// 1.1 dataTypes.kt
 // 1.2 IO.kt
-// 1.3 Arrays.kt
-// 1.4 Expressions.kt
-// 1.5 Loops.kt
+// 1.3 arrays.kt
+// 1.4 expressions.kt
+// 1.5 loops.kt
 
 // 2 functions:
-// 2.1 Functions.kt
-// 2.2 Lambdas.kt
+// 2.1 functions.kt
+// 2.2 lambdas.kt
 
 // 3 collections:
-// 3.1 Lists.kt
-// 3.2 Maps.kt
-// 3.3 Sets.kt
-// 3.4 Sequences.kt
+// 3.1 overview.kt
+// 3.2 Lists.kt
+// 3.3 Maps.kt
+// 3.4 Sets.kt
+// 3.5 Sequences.kt
+// 3.6 OperationsOnCollections.kt
 
 // 4 strings:
 // 4.1 Strings.kt
